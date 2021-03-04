@@ -1,0 +1,44 @@
+* {
+   box-sizing: border-box;
+
+}
+body {
+    background-image: url("./background.jpg");
+    background-size: 1500px;
+    image-orientation: initial;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    
+    
+}
+
+.countdown-container {
+    display: flex;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.big-text {
+    font-size: 6rem;
+    font-weight: bold;
+    margin: 0 2rem;
+    
+}
+
+.countdown-el {
+    text-align: center;
+}
+.countdown-el span {
+    font-size: 1.5rem;
+    
+}
