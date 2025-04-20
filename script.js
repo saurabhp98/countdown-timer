@@ -1,5 +1,5 @@
 //new year eve date
-const newYears = '1 jan 2022';
+const newYears = '1 jan 2026';
 const daysEl = document.getElementById('days');
 const hoursEl = document.getElementById('hours');
 const minsEl = document.getElementById('mins');
